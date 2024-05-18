@@ -2,7 +2,7 @@ let titles_type = ["Dataset", "Survey"];
 let titles_model = ["CLIP", "Transformer", "LLaVA", "Mamba"];
 let titles_method = ["Prompt", "Restoration", "Temporal", "Large Language Model"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Luc Van Gool"];
+let authors_array = ["Luc Van Gool", "Syed Waqas Zamir", "Chao Dong"];
 
 let conferences = [
     // AI
