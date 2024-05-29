@@ -1,8 +1,9 @@
 let titles_type = ["Dataset", "Survey"];
-let titles_model = ["CLIP", "Transformer", "LLaVA", "Mamba"];
-let titles_method = ["Prompt", "Restoration", "Temporal", "Large Language Model"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Luc Van Gool", "Syed Waqas Zamir", "Chao Dong", "Kai Zhang", "Jingyun Liang"];
+let titles_model = ["CLIP", "LLaVA", "Mamba"];
+let titles_method = ["Prompt", "Temporal", "Large Language Model"];
+let titles_task = ["Restoration", "derain", "deblur", "denois"]
+let titles =  titles_model + titles_method + titles_type + title_task;
+let authors_array = [" Luc Van Gool ", " Syed Waqas Zamir", " Chao Dong", " Kai Zhang", " Jingyun Liang"];
 
 let conferences = [
     // AI
