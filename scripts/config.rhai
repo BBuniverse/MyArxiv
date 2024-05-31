@@ -3,7 +3,7 @@ let titles_model = ["CLIP", "LLaVA", "Mamba"];
 let titles_method = ["Prompt", "Temporal", "Large Language Model"];
 let titles_task = ["Restoration", "derain", "deblur", "denois"];
 let titles =  titles_model + titles_method + titles_type + titles_task;
-let authors_array = [" Luc Van Gool", " Syed Waqas Zamir", " Chao Dong", " Kai Zhang", " Jingyun Liang"];
+let authors_array = [" Luc Van Gool", " Ming-Hsuan Yang", " Syed Waqas Zamir", " Chao Dong", " Kai Zhang", " Jingyun Liang"];
 
 let conferences = [
     // AI
