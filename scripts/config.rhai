@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey"];
-let titles_model = ["CLIP", "LLaVA", "Mamba"];
+let titles_model = ["CLIP", "LLaVA", "Mamba", "Transformer"];
 let titles_method = ["Prompt", "Temporal", "Large Language Model"];
 let titles_task = ["Restoration", "Derain", "Deblur", "Denois", "Super-resolution"];
 let titles =  titles_model + titles_method + titles_type + titles_task;
