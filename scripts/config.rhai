@@ -1,8 +1,9 @@
 let titles_type = ["Dataset", "Survey"];
 let titles_model = ["CLIP", "Mamba", "Transformer"];
 let titles_method = ["Prompt", "Temporal"];
-let titles_task = ["Restoration", "Derain", "Deblur", "Denois", "Super-resolution"];
-let titles =  titles_model + titles_method + titles_type + titles_task;
+let low_level_task = ["Restoration", "Derain", "Deblur", "Denois", "Super-resolution"];
+let motion_task = ["Motion prediction", "Human Motion"];
+let titles =  titles_model + titles_method + titles_type + low_level_task + motion_task;
 let authors_array = ["Luc Van Gool", "Ming-Hsuan Yang", "Syed Waqas Zamir", "Chao Dong", "Kai Zhang", "Radu Timofte", "Jingyun Liang", "Li Yi"];
 
 let conferences = [
