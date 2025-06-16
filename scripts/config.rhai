@@ -1,8 +1,10 @@
 let titles_type = ["Dataset", "Survey", "Review"];
-let titles_model = ["CLIP", "Transformer"];
+let titles_model = ["VAR", "Agent"];
 let titles_method = ["Prompt", "Temporal", "DPO", "Reinforcement"];
+
 let low_level_task = ["Restoration", "Ultra-High-Definition", "Derain", "Deblur", "Denois", "Super-resolution", "Low Light", "Snow", "Turbulence", "All-in-one"];
 let motion_task = ["Motion prediction", "Human Motion", "Hand", "Motion"];
+
 let titles =  titles_model + titles_method + titles_type + low_level_task + motion_task;
 let authors_array = ["Luc Van Gool", "Ming-Hsuan Yang", "Syed Waqas Zamir", "Chao Dong", "Kai Zhang", "Radu Timofte", "Jingyun Liang", "Li Yi", "Kaiming He"];
 
